@@ -159,60 +159,66 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-   .container {
-    display: block;
-    margin: 2em 2em;
-    text-align: center;
-    height: 65vh;
-   }
-
-   .container__caixa {
-    margin: 2em 2em;
-   }
-   
-
-   .container__imagem {
-    width: 50vw;
-    display: block;
-    margin: 2em auto;
-    
-   }
-
-   .descricao__titulo {
-    font-size: 35px;
-   }
-
-   .container__descricao{
-    padding: 1em;
-   }
-
-   .secundario__imagem {
-    margin: 0 auto;
-   }
-
-   .secundario {
-    height: 55vh;
-    text-align: center;
-   }
-
-   .dispositivos__titulo{
-    font-size: 30px;
-   }
-
-   .dispositivos__descricao {
-    font-size: 25px;
-   }
-
-   .dispositivos__lista {
-    display: block;
-   }
-
-   .dispositivos__lista img {
-    width: 65vw;
-   }
-
-   .rodape__links {
-    display: block;
-   }
-}
-
+    .container {
+     display: block;
+     margin: 2em 2em;
+     text-align: center;
+     height: 65vh;
+    }
+ 
+    .container__caixa {
+     margin: 2em 2em;
+     padding: 15px;
+    }
+ 
+    .container__imagem {
+     width: 50vw;
+     display: block;
+     margin: 2em auto;
+     
+    }
+ 
+    .descricao__titulo {
+     font-size: 35px;
+    }
+ 
+    .container__descricao{
+     padding: 1em;
+     margin-top: 0.5em;
+    }
+ 
+    .secundario__imagem {
+     margin: 0 auto;
+    }
+ 
+    .secundario__imagem--plataformas {
+     display: block;
+     width: 50vw;
+     margin: 60% auto 0 auto;
+    }
+ 
+    .secundario {
+     display: block;
+     text-align: center;
+    }
+ 
+    .dispositivos__titulo{
+     font-size: 30px;
+    }
+ 
+    .dispositivos__descricao {
+     font-size: 25px;
+    }
+ 
+    .dispositivos__lista {
+     display: block;
+    }
+ 
+    .dispositivos__lista img {
+     width: 65vw;
+    }
+ 
+    .rodape__links {
+     display: block;
+    }
+ }
